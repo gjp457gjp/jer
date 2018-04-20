@@ -1,0 +1,63 @@
+{
+  "_from": "element-theme-chalk",
+  "_id": "element-theme-chalk@2.0.11",
+  "_inBundle": false,
+  "_integrity": "sha512-TVhvNXeWwdqrJdI7dsSf6BSU5SpGdG1XAwTz8plVpstVmVLWzt93DC+thR1wL2xY/dDbq/h4EaC7Now5Ah/WSw==",
+  "_location": "/element-theme-chalk",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "element-theme-chalk",
+    "name": "element-theme-chalk",
+    "escapedName": "element-theme-chalk",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/element-theme-chalk/-/element-theme-chalk-2.0.11.tgz",
+  "_shasum": "72f891d11dc6763cd2b2d06cb9292c3e07760aff",
+  "_spec": "element-theme-chalk",
+  "_where": "G:\\vue\\vue-manage-system-master",
+  "author": {
+    "name": "yi.shyang@ele.me"
+  },
+  "bugs": {
+    "url": "https://github.com/ElementUI/theme-chalk/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Element component chalk theme.",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-sass": "^3.1.0"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "homepage": "https://github.com/ElementUI/theme-chalk#readme",
+  "keywords": [
+    "element",
+    "theme"
+  ],
+  "license": "MIT",
+  "main": "lib/index.css",
+  "name": "element-theme-chalk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElementUI/theme-chalk.git"
+  },
+  "scripts": {
+    "build": "gulp build"
+  },
+  "style": "lib/index.css",
+  "version": "2.0.11"
+}

@@ -154,8 +154,10 @@ public class ProjectApi {
             MultivaluedMap<String, String> queryParams = uriInfo.getQueryParameters();
             Map<String, Object> args = MapConverter.toObjectMap(queryParams);
             String sname = (String) args.get("sname");
-            Student student = studentBll.findBySname(sname);
-            project.setSid(student.getSno());
+            if(sname != null) {
+                Student student = studentBll.findBySname(sname);
+                project.setSid(student.getSno());
+            }
             return this.projectBll.update(project);
         } catch (Exception e) {
             e.printStackTrace();

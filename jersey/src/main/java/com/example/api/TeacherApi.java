@@ -111,7 +111,8 @@ public class TeacherApi {
             jsonObject.put("tname",teacher.getTname());
             jsonObject.put("phone",teacher.getPhone());
             jsonObject.put("qqnum",teacher.getQqnum());
-            jsonObject.put("pids",titles.substring(0,titles.length()-1));
+            jsonObject.put("pidTitle",titles.substring(0,titles.length()-1));
+            jsonObject.put("pids",teacher.getPids().split(",") );
             map.put("result",jsonObject);
             return map;
         } catch (Exception e) {

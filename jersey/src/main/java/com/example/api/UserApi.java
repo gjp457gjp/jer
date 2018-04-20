@@ -107,7 +107,7 @@ public class UserApi {
             Map<String, Object> map = new HashMap<>();
             User user = this.userBll.findByUserName(userName);
             if(user != null && user.getPwd() != null){
-                if(user.getPwd() == oldPassword) {
+                if(user.getPwd().equals(oldPassword)) {
                     user.setPwd(newPassword);
                     this.userBll.update(user);
                     map.put("status", 1);
